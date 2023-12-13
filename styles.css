@@ -7,7 +7,7 @@
 
 body {
   min-height: 100vh;
-  background: #0f2a3b;
+  background: #0F2A3B;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 }
 
 header .logo {
-  color: #d0d6ec;
+  color: #D0D6EC;
   font-size: 2rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -46,13 +46,14 @@ header ul li a {
 
 header ul li a:hover,
 header ul li a.active {
-  color: #d0d6ec;
+  color: #D0D6EC;
 }
 
 section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   min-height: 100vh;
   padding: 100px;
   gap: 100px;
@@ -80,7 +81,7 @@ section .content p {
 
 section .content .btn {
   padding: 10px 15px;
-  background: #8b98c4;
+  background: #8B98C4;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -104,12 +105,13 @@ section .container {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
 }
 
 section .container .element {
   position: relative;
   width: 40px;
   height: 40px;
-  background: #d0d6ec;
+  background: #D0D6EC;
   scale: 0.75;
 }
